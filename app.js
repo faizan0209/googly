@@ -48,7 +48,7 @@ btn.addEventListener('click',()=>{
 })
 }
 // with google
-const googleBtn=document.getElementById('.btn1')
+const googleBtn=document.getElementById('btn1')
 googleBtn.addEventListener('click',()=>{
   const auth = getAuth();
 signInWithPopup(auth, provider)
